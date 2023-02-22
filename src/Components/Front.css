@@ -1,0 +1,277 @@
+header{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px black;
+  background-color: white;
+}
+#first{
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+  text-align: right;
+  border-right: 1px solid gray;  
+  background-color: white; 
+}
+#logo{
+  color: gray;
+  margin: 0px;
+  padding-right: 50px;
+  background-color: white;  
+}
+#first img{
+  width: 30px;
+  padding-right: 50px; 
+  margin-bottom: 0px;
+  border-radius: 40px;
+  margin-top: 10px;  
+  background-color: white;   
+}
+#second{
+  display: inline-block;
+  align-items: center;
+  background-color: white;
+}
+#second h3{
+  display: inline-block;
+  align-items: flex-start;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: white;  
+}
+#second img{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 850px;
+  margin-right: 50px;
+  background-color: white;  
+  margin-top: 35px;
+}
+#third{
+  display: inline-block;
+  border-left: 1px solid gray;
+  margin-top: 10px;
+  height: 80px;
+  align-items: right; 
+  background-color: white;  
+}
+#third img{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  margin-top: 15px;
+  background-color: white;  
+}
+#side h1, #side h3{
+  margin: 0px;
+  color: gray;
+  font-family: sans-serif;
+  padding-left: 10px;
+  background-color: white;  
+}
+#side h3{
+  font-weight: 300;
+  background-color: white;  
+}
+#side{
+  display: inline-block;
+  text-align: right;
+  padding: 10px;
+  padding-right: 20px;
+  position: absolute;
+  text-decoration: none;
+  background-color: white;  
+}
+#navi > a > img{
+  width: 30px;
+  display: inline-block;
+  margin: 20px 20px;
+  z-index: 10; 
+  position: relative;   
+  text-decoration: none;
+}
+#navi > a > img:hover{
+  cursor: pointer;
+  z-index: 10;
+  text-decoration: none;
+}
+#navi{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(94, 147, 255);
+  height: 800px;
+  width: 70px;
+}
+#drop ul{
+  position: absolute;
+  top: -280px;
+  left:70px;
+  list-style-type: none;
+  width: 250px;
+  background-color: rgb(214, 221, 198);
+  height: 800px; 
+  display: none;
+  box-shadow: 2px -2px 5px rgb(148, 148, 148);
+}
+#drop ul >li{
+  padding: 20px 30px;
+  margin-left: 0px;
+}
+#drop ul >li:hover{
+  background-color: white;
+  cursor: pointer;
+  margin-left: 0px;
+  box-shadow: -2px 2px 10px rgb(148, 148, 148);;
+}
+#drop{
+  position: relative;
+} 
+#drop ul li a:hover{
+  text-decoration: none;
+}
+#three{ 
+  margin-left: 130px;
+  width: 100%;
+  display: none;
+}
+#three h4{
+  display: inline-block;
+  font-weight: bold;
+}
+#b1, #b2{
+  position: absolute;
+  width: 95px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 30px;;
+}
+#b1{
+  margin-left: 780px;
+  background-color: lightgray;
+  font-size: 15px;
+  box-shadow: 0px 2px 5px lightgray;
+}
+#b2{
+  margin-left: 890px;
+  font-size: 15px;
+  background-color: rgb(72, 72, 235);
+  box-shadow: 0px 2px 5px rgb(72, 72, 235);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#tabl{
+  margin-top: 30px;
+  width: 970px;
+  text-align: left;
+}
+#tabl > tr > td{
+  padding: 20px;
+  border-top: 1px solid rgb(233, 233, 233);
+}
+#tabl > tr > th{
+  padding: 20px;
+  padding: 30px;
+  background-color: white;
+  text-align: left;
+}
+#tabl>tr:nth-child(odd){
+background-color: rgb(243, 243, 243);
+}
+#head{
+  display: flex;
+}
+#drop li span{
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+}
+#three{
+  position: absolute;
+  margin-left: 300px;
+}
+#bo{
+  margin-left: 30%;
+  margin-top: 200px;
+  z-index: 1;
+  border: 1px solid gray;
+  width: 650px;
+  height: 520px;
+  border-radius: 10px;
+  background-color: white;
+}
+#head2{
+  display: flex;
+}
+#head2 h3{
+  margin-left: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#head2 button{
+  margin-left: 430px;
+  margin-top: 20px;
+  border: none;
+  background-color: white;
+  font-weight: bolder;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+#head2 button:hover{
+  background-color: red;
+  color: white;
+}
+form{
+  display: flex;
+}
+#first2{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#first2 input , #second2 input{
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(231, 231, 231);
+  padding: 10px;
+  margin-top: 5px;
+}
+#second2{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+footer{
+  margin-top: 30px;
+}
+footer button{
+  width: 100px;
+  height: 30px;
+}
+#clr{
+  margin-left: 370px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#sav{
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(49, 96, 226);
+  color: white;
+}
+#disp{
+  position: absolute;
+  z-index: 100;
+  margin-left: 200px;
+  display: none;
+}
